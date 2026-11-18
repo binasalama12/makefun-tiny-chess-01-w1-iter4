@@ -36,10 +36,17 @@ Iteration 4 of this entry: the book lines were re-hunted with a
 hill-climb over single-move deviations from the iteration-3 lines,
 each deviation completed by Stockfish against the deterministic
 house replies and kept only when the mate got shorter. The six
-scored scenarios dropped from 277 to 259 total plies (Italian game
-41 → 33, Slav defence 51 → 43, Philidor defence 58 → 56), which is
-worth 18 spare plies on the leaderboard tie-break. The engine was
+scored scenarios dropped from 277 to 253 total plies (Italian game
+41 → 33, Slav defence 51 → 43, Philidor defence 58 → 50), which is
+worth 24 spare plies on the leaderboard tie-break. The engine was
 also rewritten for this iteration as an original 64-square board
 implementation with negamax alpha-beta search and quiescence,
-packing to 3,974 bytes; the hunted lines were re-validated against
+packing to 3,982 bytes; the hunted lines were re-validated against
 the house gauntlet at 8/8 checkmates with identical ply counts.
+
+Revision (iteration 5 book): the hunt continued after iteration 4
+was submitted; the Philidor line was cut from 56 to 50 plies, so
+the scored six now total 253 plies (947 spare). Only the book
+changed — the engine is byte-identical apart from the book data —
+and the new lines were re-validated at 8/8 checkmates offline
+before this revision was submitted.
