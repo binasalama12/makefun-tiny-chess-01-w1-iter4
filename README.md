@@ -44,9 +44,6 @@ implementation with negamax alpha-beta search and quiescence,
 packing to 3,982 bytes; the hunted lines were re-validated against
 the house gauntlet at 8/8 checkmates with identical ply counts.
 
-Revision (iteration 5 book): the hunt continued after iteration 4
-was submitted; the Philidor line was cut from 56 to 50 plies, so
-the scored six now total 253 plies (947 spare). Only the book
-changed — the engine is byte-identical apart from the book data —
-and the new lines were re-validated at 8/8 checkmates offline
-before this revision was submitted.
+Revision (iteration 5 book): the hunt continued; the Philidor
+line was cut 56 → 50, so the scored six total 253 plies (947
+spare). Only the book data changed; re-validated 8/8 offline.
